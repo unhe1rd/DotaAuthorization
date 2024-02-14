@@ -1,16 +1,10 @@
-platform :ios, '9.0'
+platform :ios, '14.0'
 
 use_frameworks!
 
-workspace 'SteamLogin'
-project 'SteamLogin.xcodeproj'
 project 'Example.xcodeproj'
 
-target 'SteamLogin' do
-  project 'SteamLogin.xcodeproj'
-end
-
 target 'Example' do
-    pod 'SteamLogin', :path => 'SteamLogin.podspec'
+    pod 'SteamLogin', :git => 'git@github.com:serhii-londar/SteamLogin.git'
     project 'Example.xcodeproj'
 end

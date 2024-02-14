@@ -1,18 +1,23 @@
 PODS:
-  - SteamLogin (0.1.1):
-    - SteamLogin/Login (= 0.1.1)
-  - SteamLogin/Login (0.1.1)
+  - SteamLogin (0.1.4):
+    - SteamLogin/Login (= 0.1.4)
+  - SteamLogin/Login (0.1.4)
 
 DEPENDENCIES:
-  - SteamLogin (from `SteamLogin.podspec`)
+  - "SteamLogin (from `git@github.com:serhii-londar/SteamLogin.git`)"
 
 EXTERNAL SOURCES:
   SteamLogin:
-    :path: SteamLogin.podspec
+    :git: "git@github.com:serhii-londar/SteamLogin.git"
+
+CHECKOUT OPTIONS:
+  SteamLogin:
+    :commit: 2e60135fb22b573ac2f3bf47aa9bc2fd424adb53
+    :git: "git@github.com:serhii-londar/SteamLogin.git"
 
 SPEC CHECKSUMS:
-  SteamLogin: 1c0d373f764152068f20e3afcf8f9e000f4bdc8a
+  SteamLogin: 86eee7733cfaa417242671524f39561b0c22700c
 
-PODFILE CHECKSUM: aed5c29b0619e23f0fc30bd7b16621e545e89f0d
+PODFILE CHECKSUM: a59d406479b62726f7953854d485b8ca397d0ace
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.15.2
